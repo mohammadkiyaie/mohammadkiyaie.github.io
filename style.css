@@ -1,0 +1,24 @@
+:root{
+    --background-color : #0a0b10 ; 
+}
+
+/* card background : #161821
+main color : #6366f1 for highlight and button 
+text color : #ffffff 
+sub text color : #94a3b8
+border color : #1e293b */
+
+body{
+    background-color: var(--background-color);
+    
+}
+.header{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+
+}
