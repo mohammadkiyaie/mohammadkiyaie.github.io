@@ -8,23 +8,8 @@
   <meta name="description" content="Portfolio of Mohammad kiyaie — Frontend Developer, SEO Specialist, Content Writer and AI Skill Author." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      darkMode: "class",
-      theme: {
-        extend: {
-          colors: {
-            black: { DEFAULT: "#000", 100: "#000319", 200: "rgba(17,25,40,0.75)", 300: "rgba(255,255,255,0.125)" },
-            white: { DEFAULT: "#FFF", 100: "#BEC1DD", 200: "#C1C2D3" },
-            blue: { 100: "#E4ECFF" },
-            purple: "#CBACF9",
-          },
-        },
-      },
-    };
-  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="tailwind.min.css" />
   <style>
     :root {
       --scroll-progress: 0;
@@ -463,7 +448,7 @@
         <!-- Profile Image Column -->
         <div class="lg:col-span-5 flex justify-center lg:justify-end order-1 lg:order-2">
           <div class="profile-wrap">
-            <img src="ResumeProfile%20.webp" alt="Mohammad kiyaie" class="profile-img" />
+            <img src="ResumeProfile%20.webp" alt="Mohammad kiyaie" class="profile-img" fetchpriority="high" decoding="async" />
             <div class="profile-ring"></div>
           </div>
         </div>
@@ -481,7 +466,7 @@
 
         <!-- Left Tall Card: Client Collaboration -->
         <div class="bento lg:col-span-7   flex flex-col justify-between  ">
-          <img src="Image/box-1.webp" alt="" >
+          <img src="Image/box-1.webp" alt="" loading="lazy" decoding="async" >
         </div>
 
         <!-- Right Stacked Column: Time Zone + My Tech Stack -->
@@ -489,12 +474,12 @@
 
           <!-- Top Right: Time Zone -->
           <div class="bento  flex flex-col justify-between ">
-            <img src="Image/box-4.webp" alt="">
+            <img src="Image/box-4.webp" alt="" loading="lazy" decoding="async" >
           </div>
 
           <!-- Bottom Right: My Tech Stack (Left text + Right stack tags) -->
           <div class="bento  flex-1 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-5">
-            <img src="Image/box-3.webp" alt="">
+            <img src="Image/box-3.webp" alt="" loading="lazy" decoding="async" >
           </div>
 
         </div>
@@ -508,7 +493,7 @@
 
           <!-- Tech Enthusiast -->
           <div class="bento  flex flex-col justify-between ">
-            <img src="Image/box-2.webp" alt="">
+            <img src="Image/box-2.webp" alt="" loading="lazy" decoding="async" >
           </div>
 
           <!-- Start Project Together -->
@@ -527,7 +512,7 @@
 
         <!-- Right Wide Card: The Inside Scoop -->
         <div class="bento lg:col-span-8 flex flex-col md:flex-row items-start md:items-center justify-between gap-6  lg:min-h-[364px]">
-          <img src="Image/box.webp" alt="">
+          <img src="Image/box.webp" alt="" loading="lazy" decoding="async" >
         </div>
 
       </div>
@@ -544,7 +529,7 @@
       <!-- card 1 -->
       <article class="project-card flex flex-col">
         <div class="relative h-52 w-full overflow-hidden">
-          <img src="Image/AI & Business Analytics Dashboard.webp" alt="AI and Business Analytics Dashboard" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+          <img src="Image/AI & Business Analytics Dashboard.webp" alt="AI and Business Analytics Dashboard" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" decoding="async" />
         </div>
         <div class="p-6 md:p-7 flex-1 flex flex-col justify-between">
           <div>
@@ -569,7 +554,7 @@
       <!-- card 2 -->
       <article class="project-card flex flex-col">
         <div class="relative h-52 w-full overflow-hidden">
-          <img src="Image/meroviee-studio.webp" alt="AI and Business Analytics Dashboard" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+          <img src="Image/meroviee-studio.webp" alt="AI and Business Analytics Dashboard" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" decoding="async" />
         </div>
         <div class="p-6 md:p-7 flex-1 flex flex-col justify-between">
           <div>
@@ -594,7 +579,7 @@
       <!-- card 3 -->
       <article class="project-card flex flex-col">
         <div class="relative h-52 w-full overflow-hidden">
-          <img src="Image/meroviee.ir-image.webp" alt="AI and Business Analytics Dashboard" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+          <img src="Image/meroviee.ir-image.webp" alt="AI and Business Analytics Dashboard" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" decoding="async" />
         </div>
         <div class="p-6 md:p-7 flex-1 flex flex-col justify-between">
           <div>
@@ -619,7 +604,7 @@
       <!-- card 4 -->
       <article class="project-card flex flex-col">
         <div class="relative h-52 w-full overflow-hidden">
-          <img src="Image/telegram-bot.webp" alt="AI and Business Analytics Dashboard" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+          <img src="Image/telegram-bot.webp" alt="AI and Business Analytics Dashboard" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" decoding="async" />
         </div>
         <div class="p-6 md:p-7 flex-1 flex flex-col justify-between">
           <div>
@@ -644,7 +629,7 @@
       <!-- card 5 -->
       <article class="project-card flex flex-col">
         <div class="relative h-52 w-full overflow-hidden">
-          <img src="Image/react-web-app.webp" alt="AI and Business Analytics Dashboard" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+          <img src="Image/react-web-app.webp" alt="AI and Business Analytics Dashboard" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" decoding="async" />
         </div>
         <div class="p-6 md:p-7 flex-1 flex flex-col justify-between">
           <div>
@@ -669,7 +654,7 @@
       <!-- card 6 -->
       <article class="project-card flex flex-col">
         <div class="relative h-52 w-full overflow-hidden">
-          <img src="Image/aazo.ir.webp" alt="AI and Business Analytics Dashboard" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+          <img src="Image/aazo.ir.webp" alt="AI and Business Analytics Dashboard" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" decoding="async" />
         </div>
         <div class="p-6 md:p-7 flex-1 flex flex-col justify-between">
           <div>
